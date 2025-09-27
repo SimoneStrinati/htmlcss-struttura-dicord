@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+    margin: 0 auto;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin-bottom: 1em;
+}
+
+header {
+    background-color: aqua;
+    padding: 15px 0;  
+}
+
+#bgd-box {
+    background-color: orange;  
+}
+
+.logo {
+    width: 25%;
+    border: dashed black 2px;
+    padding: 15px 10px; 
+}
+
+.link {
+    width: 50%;
+    border: dashed black 2px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.login {
+    width: 25%;
+    border: dashed black 2px;
+    padding: 15px 10px;
+    text-align: right;
+}
+
+.first-box {
+    display: flex;
+    background-color: blue;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rose {
+    background-color: pink;
+    width: 50%;
+    height: 60%;
+    border: dashed black 2px;
+}
+
+
+
+
