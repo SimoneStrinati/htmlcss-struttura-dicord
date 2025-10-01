@@ -7,7 +7,7 @@
 
 .box {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 600px;
 }
 
 .flex-box {
@@ -20,7 +20,8 @@
 
 header {
     background-color: #add8e7;
-    padding: 15px 0;  
+    padding-top: 15px;
+    padding-bottom: 5px;  
 }
 
 #bgd-box {
@@ -78,7 +79,7 @@ header {
     min-height: 200px;    
 }
 
-#column-reverse {
+#box-reverse {
     display: flex;
     flex-direction: row-reverse;
 }
@@ -93,6 +94,13 @@ header {
     background-color: #d3d3d3;
     padding: 10px 0;
     
+}
+
+.green-column{
+    background-color: green;
+    width: 100%;
+    border: 2px dashed;
+    min-height: 200px;  
 }
 
 
